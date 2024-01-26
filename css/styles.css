@@ -36,13 +36,17 @@ body {
   text-transform: uppercase;
 }
 
-.link {
-  text-decoration: none;
-  padding: 24px 0;
+.header {
+  border-bottom: 1px solid var(--cornflower);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.header-logo-text {
-  color: var(--navyblue);
+
+.nav,
+.address {
+  display: flex;
 }
+
 
 /* HW7 Mobile Approach First */
 /* Header */
@@ -123,8 +127,9 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .menu-container .menu-toggle:hover,
