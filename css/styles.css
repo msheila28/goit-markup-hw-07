@@ -307,7 +307,7 @@ body {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--navyblue);
   margin-bottom: 8px;
   font-weight: 700;
   text-align: center;
@@ -317,7 +317,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--navyblue);
   margin-bottom: 8px;
   font-weight: 500;
   text-align: left;
@@ -362,7 +362,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--navy-blue);
+  color: var(--navyblue);
   margin-bottom: 72px;
 }
 
@@ -374,6 +374,20 @@ body {
 .team-section {
   background-color: var(--cloud);
   padding: 96px 0;
+  text-align: center;
+}
+
+.team-header {
+  color: var(--navyblue);
+  text-align: center;
+  font-family: inherit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team.list {
@@ -441,6 +455,20 @@ body {
 /* Fifth Section */
 .customer-section {
   padding: 96px 0;
+  text-align: center;
+}
+
+.customer-header {
+  color: var(--navyblue);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .customer {
@@ -480,7 +508,7 @@ body {
 
 /* Footer */
 .footer {
-  background-color: var(--navy-blue);
+  background-color: var(--navyblue);
   padding: 97.5px 0;
 }
 
@@ -809,7 +837,7 @@ img {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--navyblue);
   margin-bottom: 16px;
 }
 
@@ -1028,7 +1056,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: var(--navyblue);
     padding: 24px 0;
   }
 
@@ -1057,7 +1085,7 @@ img {
   /* Main */
   /* First Section */
   .title-section {
-    background-color: var(--navy-blue);
+    background-color: var(--navyblue);
     padding: 112px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1151,7 +1179,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blue);
+    color: var(--navyblue);
     margin-bottom: 72px;
   }
 
@@ -1412,7 +1440,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blue);
+    color: var(--navyblue);
     margin-bottom: 72px;
   }
 
@@ -1433,6 +1461,7 @@ img {
   /* Fourth Section */
   .team-section {
     padding: 120px 0;
+    text-align: center;
   }
 
   .team.list {
@@ -1533,7 +1562,7 @@ img {
 
   /* Footer */
   .footer {
-    background-color: var(--navy-blue);
+    background-color: var(--navyblue);
     padding: 100px 0;
   }
 
@@ -1777,7 +1806,7 @@ img {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: var(--navyblue);
     margin-bottom: 16px;
   }
 
