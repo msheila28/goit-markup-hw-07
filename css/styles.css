@@ -755,8 +755,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project.link:hover .svc-img-desc,
-.project.link:focus .svc-img-desc {
+.project.link:hover .project-img-desc,
+.project.link:focus .project-img-desc {
   transform: translateY(0%);
 }
 
@@ -1009,6 +1009,13 @@ img {
     display: flex;
     justify-content: end;
     width: 100%;
+    color: var(--slate);
+    font-family: inherit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
   }
 
   .nav,
@@ -1381,7 +1388,13 @@ img {
 
   /* Address */
   .contact {
+    color: var(--slate);
+    font-family: inherit;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
   }
 
   .contacts > .list {
